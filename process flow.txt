@@ -1,0 +1,124 @@
+
+     Group7 Process Flow
+----|-----------------------------------------------------------|----------
+1.  |Github working directory created.                          |Hikmet
+    |https://github.com/Group7/Project1                         |
+    |                                                           |
+----|-----------------------------------------------------------|----------
+2.  |Create a directory "Group7" under Documents                |All 
+    |on your local drive                                        |Members
+    |                                                           |Only once
+    |                                                           |
+----|-----------------------------------------------------------|----------
+3.  |Create a directory "Group7"                                |All 
+    |on your local drive                                        |Members
+    |under ~Documents                                           |Only Once
+    |                                                           |
+----|-----------------------------------------------------------|----------
+4.  |Clone "Project1"                                           |All 
+    |User1@LAPTOP-U334M7V1 MINGW64 ~/documents/Group7           |Members
+    |$ git clone https://github.com/Group7/Project1.git         |Only once
+    |                                                           |
+----|-----------------------------------------------------------|----------
+5.  |Check your local directory                                 |All 
+    |~/documents/Group7/Project1                                |Members
+    |                                                           |Only once
+    |                                                           |
+----|-----------------------------------------------------------|----------
+6.  |Make changes on Github main branch                         |Hikmet
+    |Create a file on local directory, or modify a file         |
+    |~/documents/Group7/Project1/process flow.txt               |
+    |                                                           |
+----|-----------------------------------------------------------|----------
+7.  |User1@LAPTOP-U334M7V1 MINGW64 ~/documents/Group7/Project1  |Hikmet
+    |$ git add .                                                | 
+    |$ git commit -m "This is Hikmet's commit"                  |
+    |$ git push origin main                                     |
+    |                                                           |
+----|-----------------------------------------------------------|----------
+8.  |Create a new branch                                        |All
+    |User1@LAPTOP-U334M7V1 MINGW64 ~/documents/Group7/Project1  |Members
+    |$ git add .                                                | 
+    |$ git commit -m "This is Hikmet's commit"                  |
+    |$ git push origin main                                     |
+    |                                                           |
+----|-----------------------------------------------------------|----------
+
+
+
+below to be deleted
+----------------------------------------------------------------------------
+User1@LAPTOP-U334M7V1 MINGW64 ~
+$ cd documents
+
+User1@LAPTOP-U334M7V1 MINGW64 ~/documents
+$ cd Goup7-Project1
+bash: cd: Goup7-Project1: No such file or directory
+
+User1@LAPTOP-U334M7V1 MINGW64 ~/documents
+$ cd Group7-Project1
+
+User1@LAPTOP-U334M7V1 MINGW64 ~/documents/Group7-Project1
+$ git clone ^V
+fatal: repository '?' does not exist
+
+User1@LAPTOP-U334M7V1 MINGW64 ~/documents/Group7-Project1
+$ git clone https://github.com/HikmetYigit34/Temporary.git
+Cloning into 'Temporary'...
+remote: Enumerating objects: 11, done.
+remote: Counting objects: 100% (11/11), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 11 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (11/11), 4.20 KiB | 1.40 MiB/s, done.
+
+User1@LAPTOP-U334M7V1 MINGW64 ~/documents/Group7-Project1
+$ git add .
+fatal: not a git repository (or any of the parent directories): .git
+
+User1@LAPTOP-U334M7V1 MINGW64 ~/documents/Group7-Project1
+$ cd temporary
+
+User1@LAPTOP-U334M7V1 MINGW64 ~/documents/Group7-Project1/temporary (main)
+$ git add .
+
+User1@LAPTOP-U334M7V1 MINGW64 ~/documents/Group7-Project1/temporary (main)
+$ git commit -m "This is Hikmets first commit"
+[main 3179a51] This is Hikmets first commit
+ 1 file changed, 1 insertion(+)
+
+User1@LAPTOP-U334M7V1 MINGW64 ~/documents/Group7-Project1/temporary (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 338 bytes | 338.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/HikmetYigit34/Temporary.git
+   651055d..3179a51  main -> main
+
+User1@LAPTOP-U334M7V1 MINGW64 ~/documents/Group7-Project1/temporary (main)
+$ cd..
+bash: cd..: command not found
+
+User1@LAPTOP-U334M7V1 MINGW64 ~/documents/Group7-Project1/temporary (main)
+$ cd ..
+
+User1@LAPTOP-U334M7V1 MINGW64 ~/documents/Group7-Project1
+$ cd ..
+
+User1@LAPTOP-U334M7V1 MINGW64 ~/documents
+$ cd ..
+
+User1@LAPTOP-U334M7V1 MINGW64 ~
+$ cd documents
+
+User1@LAPTOP-U334M7V1 MINGW64 ~/documents
+$ cd documents
+bash: cd: documents: No such file or directory
+
+User1@LAPTOP-U334M7V1 MINGW64 ~/documents
+$ cd Group7-Project1
+
+User1@LAPTOP-U334M7V1 MINGW64 ~/documents/Group7-Project1
+$ git clone
